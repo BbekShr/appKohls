@@ -160,7 +160,7 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U9f-ha-bmc">
-                                <rect key="frame" x="15" y="444" width="384" height="333"/>
+                                <rect key="frame" x="15" y="444" width="384" height="364"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Everyone gets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evh-Ab-n0n">
                                         <rect key="frame" x="18" y="15" width="129" height="26"/>
@@ -194,15 +194,15 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y03-Cq-3Tj">
-                                        <rect key="frame" x="231" y="238" width="111" height="57"/>
+                                        <rect key="frame" x="231" y="238" width="111" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="cash"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXm-MC-CS5">
-                                        <rect key="frame" x="18" y="238" width="172" height="60"/>
+                                        <rect key="frame" x="18" y="238" width="169" height="51"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="172" id="4AX-WC-1fY"/>
-                                            <constraint firstAttribute="height" constant="60" id="HbU-Zf-ENl"/>
+                                            <constraint firstAttribute="width" constant="169" id="4AX-WC-1fY"/>
+                                            <constraint firstAttribute="height" constant="51" id="HbU-Zf-ENl"/>
                                         </constraints>
                                         <state key="normal" image="see"/>
                                     </button>
@@ -247,7 +247,7 @@
                             <constraint firstItem="eJ9-mx-OFR" firstAttribute="leading" secondItem="dPA-Lx-OqV" secondAttribute="leading" constant="15" id="l6E-Zg-KYE"/>
                             <constraint firstItem="bdl-iE-y5l" firstAttribute="top" secondItem="VgT-xu-CWh" secondAttribute="top" constant="20" symbolic="YES" id="lvU-Gf-q1t"/>
                             <constraint firstItem="eJ9-mx-OFR" firstAttribute="centerX" secondItem="VgT-xu-CWh" secondAttribute="centerX" id="m8h-aI-3cb"/>
-                            <constraint firstAttribute="bottom" secondItem="U9f-ha-bmc" secondAttribute="bottom" constant="31" id="yK0-L5-aW4"/>
+                            <constraint firstAttribute="bottom" secondItem="U9f-ha-bmc" secondAttribute="bottom" id="yK0-L5-aW4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dPA-Lx-OqV"/>
                     </view>
